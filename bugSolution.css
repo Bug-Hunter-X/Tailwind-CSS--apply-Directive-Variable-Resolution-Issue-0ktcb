@@ -1,0 +1,16 @@
+/* bugSolution.css */
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+}
+
+.custom-style {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.container {
+  @apply custom-style;
+  padding: 2rem;
+}
