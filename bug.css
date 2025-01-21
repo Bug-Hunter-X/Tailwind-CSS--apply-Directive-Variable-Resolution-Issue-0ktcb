@@ -1,0 +1,1 @@
+This bug occurs when using Tailwind CSS's `@apply` directive with custom styles that contain variables. The variables are not properly resolved, leading to unexpected styles or missing styles altogether.
